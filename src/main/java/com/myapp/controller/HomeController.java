@@ -11,6 +11,6 @@ public class HomeController {
         StringBuffer sb = new StringBuffer(100);
         sb.append("test");
         String b = sb.toString();
-        return "index";
+        return b;
     }
 }
