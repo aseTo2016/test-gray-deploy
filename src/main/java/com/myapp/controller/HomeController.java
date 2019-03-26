@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @RequestMapping("/")
     public String index() {
-        StringBuffer sb = new StringBuffer(200);
+        StringBuffer sb = new StringBuffer(100);
         sb.append("test");
         String b = sb.toString();
         return b;
