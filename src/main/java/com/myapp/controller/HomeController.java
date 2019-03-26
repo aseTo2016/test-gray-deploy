@@ -13,4 +13,13 @@ public class HomeController {
         String b = sb.toString();
         return "index";
     }
+
+    @RequestMapping("/root")
+    public String root() {
+        String a = "test";
+        StringBuffer sb = new StringBuffer(100);
+        sb.append("test");
+        String b = sb.toString();
+        return "index";
+    }
 }
