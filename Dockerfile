@@ -2,7 +2,7 @@ FROM tomcat
 
 ENV DIR_WEBAPP /usr/local/tomcat/webapps/
 
-RUN  rm -rf $DIR_WEBAPP/*
+RUN  mkdir -p $DIR_WEBAPP
 
 ADD target/*.war $DIR_WEBAPP/ROOT.war
 
