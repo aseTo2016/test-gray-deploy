@@ -1,4 +1,4 @@
-FROM tomcat
+#FROM tomcat
 
 ENV DIR_WEBAPP /usr/local/tomcat/webapps/
 
